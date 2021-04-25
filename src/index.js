@@ -42,4 +42,3 @@ chooseChar.addEventListener("change",() => {
  }
 });
 });
-
