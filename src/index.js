@@ -29,7 +29,7 @@ fetch('https://dog.ceo/api/breeds/list/all')
   }
 });
 });
-  const chooseChar = document.getElementById("breed-dropdown").options[chooseChar.selectedIndex].text;
+let chooseChar = document.getElementById("breed-dropdown").options[chooseChar.selectedIndex].text;
 console.log(chooseChar);
 chooseChar.addEventListener("change",() => {
   //let value = chooseChar.options[chooseChar.selectedIndex].text;
