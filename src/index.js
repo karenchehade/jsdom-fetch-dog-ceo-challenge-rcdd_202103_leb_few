@@ -41,4 +41,3 @@ chooseChar.addEventListener("change",() => {
      li[i].style.display = "none";
    }
  });
-
