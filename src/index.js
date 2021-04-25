@@ -32,10 +32,9 @@ fetch('https://dog.ceo/api/breeds/list/all')
   let chooseChar = document.getElementById("breed-dropdown");
 chooseChar.addEventListener("change",() => {
   const chara = document.getElementById("breed-dropdown").options[index].innerHTML;
- const li = document.querySelectorAll("li");
- for(let i=0;i<li.length;i++) {
-   li[i].style.display = "list-item";
-   if(li[i].innerHTML[0] !== letter) {
+ const list = document.querySelectorAll("li");
+ for(let i=0;i<list.length;i++) {
+   if(list[i].innerHTML[0] !== letter) {
      li[i].style.display = "none";
    }
  });
