@@ -28,6 +28,7 @@ fetch('https://dog.ceo/api/breeds/list/all')
 
   }
 });
+});
 //
 // function changeColor(){
 //   const dogs = document.getElementById("liDog");
