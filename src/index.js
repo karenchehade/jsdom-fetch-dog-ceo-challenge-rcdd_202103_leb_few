@@ -22,7 +22,8 @@ fetch('https://dog.ceo/api/breeds/list/all')
    let dogLi = document.createElement("li");
         dogLi.innerHTML = i;
         dogLi.addEventListener("click", ()=> {
-          console.log("hi");
+          // console.log("hi");
+           dogs.style.color= lightblue;
         });
           ul.appendChild(dogLi);
 
@@ -34,6 +35,6 @@ fetch('https://dog.ceo/api/breeds/list/all')
 //   const dogs = document.getElementById("liDog");
 //   console.log(dogs);
 //   dogs.addEventListener("click" , function(){
-//       dogs.style.color= lightblue;
+//      
 //   });
 // }
