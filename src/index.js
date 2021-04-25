@@ -23,7 +23,7 @@ fetch('https://dog.ceo/api/breeds/list/all')
         dogLi.innerHTML = i;
         dogLi.addEventListener("click", ()=> {
           // console.log("hi");
-           dogLI.style.color= lightblue;
+           dogLi.style.color= lightblue;
         });
           ul.appendChild(dogLi);
 
