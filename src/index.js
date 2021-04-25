@@ -33,7 +33,7 @@ fetch('https://dog.ceo/api/breeds/list/all')
 console.log(chooseChar);
 chooseChar.addEventListener("change",() => {
   //let value = chooseChar.options[chooseChar.selectedIndex].text;
-  console.log(value);
+  // console.log(value);
   const chara = document.getElementById("breed-dropdown").options[index].innerHTML;
  const list = document.querySelectorAll("li");
  for(let i=0;i<list.length;i++) {
