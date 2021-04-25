@@ -15,7 +15,6 @@ document.addEventListener("DOMContentLoaded", function () {
 fetch('https://dog.ceo/api/breeds/list/all')
 .then(response => response.json())
 .then(json =>{
-  //console.log(json);
   const ul = document.getElementById('dog-breeds');
  for(const i in json.message){
    //console.log(i);
@@ -30,11 +29,7 @@ fetch('https://dog.ceo/api/breeds/list/all')
   }
 });
 });
-//
-// function changeColor(){
-//   const dogs = document.getElementById("liDog");
-//   console.log(dogs);
-//   dogs.addEventListener("click" , function(){
-//
-//   });
-// }
+
+function  filterBreeds(){
+  let chooseChar = document.getElementById("breed-dropdown")
+}
