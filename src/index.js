@@ -29,7 +29,6 @@ fetch('https://dog.ceo/api/breeds/list/all')
   }
 });
 let chooseChar = document.getElementById("breed-dropdown");
-// console.log(chooseChar);
 chooseChar.addEventListener("change",() => {
   let value = chooseChar.options[chooseChar.selectedIndex].text;
  const list = document.querySelectorAll("li");
