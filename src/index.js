@@ -28,7 +28,6 @@ fetch('https://dog.ceo/api/breeds/list/all')
 
   }
 });
-});
 let chooseChar = document.getElementById("breed-dropdown").options[chooseChar.selectedIndex].text;
 console.log(chooseChar);
 chooseChar.addEventListener("change",() => {
@@ -42,3 +41,5 @@ chooseChar.addEventListener("change",() => {
    }
  }
 });
+});
+
