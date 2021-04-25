@@ -35,6 +35,6 @@ chooseChar.addEventListener("change",() => {
  const list = document.querySelectorAll("li");
  for(let i=0;i<list.length;i++) {
    if(list[i].innerHTML[0] !== letter) {
-     li[i].style.display = "none";
+     list[i].style.display = "none";
    }
  });
