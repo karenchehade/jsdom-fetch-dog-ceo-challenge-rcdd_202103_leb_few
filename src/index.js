@@ -35,6 +35,6 @@ fetch('https://dog.ceo/api/breeds/list/all')
 //   const dogs = document.getElementById("liDog");
 //   console.log(dogs);
 //   dogs.addEventListener("click" , function(){
-//      
+//
 //   });
 // }
