@@ -38,4 +38,5 @@ chooseChar.addEventListener("change",() => {
    if(list[i].innerHTML[0] !== letter) {
      list[i].style.display = "none";
    }
- });
+ }
+});
