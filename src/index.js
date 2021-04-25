@@ -33,7 +33,7 @@ console.log(chooseChar);
 chooseChar.addEventListener("change",() => {
   let value = chooseChar.options[chooseChar.selectedIndex].text;
   // console.log(value);
-  const chara = document.getElementById("breed-dropdown").options[index].innerHTML;
+  const chara = document.getElementById("breed-dropdown").options[value].innerHTML;
  const list = document.querySelectorAll("li");
  for(let i=0;i<list.length;i++) {
    if(list[i].innerHTML[0] !== letter) {
